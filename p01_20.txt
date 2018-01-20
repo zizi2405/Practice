@@ -1,0 +1,44 @@
+1)
+
+//one line
+
+/* two or 
+many lines */
+
+
+2) var message;
+   let year;
+   const color;
+  //var class
+
+3) var message;
+   message = "Hi"
+
+   let year;
+   year=10
+
+   const color;
+   color= 5;
+
+4) let a=4;
+   let b=6;
+   let c=a+b;
+
+5) let a=5;
+   a = a + 1;
+  
+   let b=10
+   b = b + 5;
+  
+   let c="I’m a "
+   c = c + "String!"
+
+6) var studlyCapVar;
+   studlyCapVar=10;
+
+   var properCamelCase;
+   properCamelCase="A String";
+
+   var titleCaseOver;
+   titleCaseOver=9000;
+  
