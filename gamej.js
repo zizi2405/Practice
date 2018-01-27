@@ -1,8 +1,8 @@
+ 
+while (true) {
+    var сhoice = prompt('сделайте свой выбор', '');
 
-
-var Choice = prompt('сделайте свой выбор', '');
-
-    if (Choice=="камень") {
+    if (сhoice==="камень") {
         var a = Math.round(Math.random() * 10);
             if (a <= 3) {
             alert ('Выбор компьютера Камень и НИЧЬЯ');
@@ -13,7 +13,7 @@ var Choice = prompt('сделайте свой выбор', '');
         }
     }
 
-    else if (Choice=="ножницы") {
+    else if (сhoice==="ножницы") {
         var a = Math.round(Math.random() * 10);
             if (a <= 3) {
             alert ('Выбор компьютера Камень и вы проиграли');
@@ -24,7 +24,7 @@ var Choice = prompt('сделайте свой выбор', '');
         }
     }
 
-    else if (Choice=="бумага") {
+    else if (сhoice==="бумага") {
         var a = Math.round(Math.random() * 10);
             if (a <= 3) {
             alert ('Выбор компьютера Камень и вы выиграли');
@@ -34,12 +34,15 @@ var Choice = prompt('сделайте свой выбор', '');
             alert ('Выбор компьютера бумага и НИЧЬЯ');
         }
     }
-    else if (Choice==null) {
-            alert ('Игра отменена');
-    } 
-    
+    else if (сhoice==null) {
+        break; 
+        alert ('Игра отменена');
+    }
     else {
            alert ('некорректно');
     }
+
     
+} 
+
 
