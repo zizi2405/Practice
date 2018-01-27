@@ -1,5 +1,6 @@
- 
-while (true) {
+var choice;
+for (choice==''; сhoice !== null; )  {
+    alert ('Играем?');
     var сhoice = prompt('сделайте свой выбор', '');
 
     if (сhoice==="камень") {
@@ -35,14 +36,13 @@ while (true) {
         }
     }
     else if (сhoice==null) {
-        break; 
         alert ('Игра отменена');
     }
     else {
            alert ('некорректно');
     }
 
-    
+   
 } 
 
 
